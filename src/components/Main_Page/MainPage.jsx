@@ -27,28 +27,28 @@ const MainPage = () => {
               <span>3</span>
             </li>
             <li className="onconnect_nav-content_item">
-              <a href="/about" className="onconnect_nav-content_link">
+              <a href="/contact" className="onconnect_nav-content_link">
                 Руйхатга олиш
               </a>
               <span>3</span>
             </li>
             <li className="onconnect_nav-content_item">
-              <a href="/about" className="onconnect_nav-content_link">
+              <a href="/contact" className="onconnect_nav-content_link">
                 Таксимаш
               </a>
             </li>
             <li className="onconnect_nav-content_item">
-              <a href="/about" className="onconnect_nav-content_link">
+              <a href="/contact" className="onconnect_nav-content_link">
                 Иш юритишни тиклаш
               </a>
             </li>
             <li className="onconnect_nav-content_item">
-              <a href="/about" className="onconnect_nav-content_link">
+              <a href="/contact" className="onconnect_nav-content_link">
                 Натижани кабул килиш
               </a>
             </li>
             <li className="onconnect_nav-content_item">
-              <a href="/about" className="onconnect_nav-content_link">
+              <a href="/contact" className="onconnect_nav-content_link">
                 Кайта таксимлаш
               </a>
             </li>

@@ -6,6 +6,7 @@ import {
 } from "react-icons/ai";
 import { images } from "../../constants";
 import "./Navbar.scss";
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -61,24 +62,24 @@ const Navbar = () => {
             >
               <ul className="header__nav-content__about-drop_down-list">
                 <li className="header__nav-content__about-drop_down-item">
-                  <a href="/about" className="drop_down-link">
+                  <Link to="/contact" className="drop_down-link">
                     My Investiments
-                  </a>
+                  </Link>
                 </li>
                 <li className="header__nav-content__about-drop_down-item">
-                  <a href="/about" className="drop_down-link">
+                  <Link to="/about" className="drop_down-link">
                     Edit Profile
-                  </a>
+                  </Link>
                 </li>
                 <li className="header__nav-content__about-drop_down-item">
-                  <a href="/about" className="drop_down-link">
+                  <Link to="/contact" className="drop_down-link">
                     Settings
-                  </a>
+                  </Link>
                 </li>
                 <li className="header__nav-content__about-drop_down-item">
-                  <a href="/about" className="drop_down-link">
+                  <Link to="/about" className="drop_down-link">
                     Log out
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -107,16 +108,16 @@ const Navbar = () => {
                 </div>
                 <ul className="smallscreen_overlay-list_profile">
                   <li className="smallscreen_overlay-list_profile-item">
-                    <a href="#!">My Investiments</a>
+                    <Link to="/contact">My Investiments</Link>
                   </li>
                   <li className="smallscreen_overlay-list_profile-item">
-                    <a href="#!">Edit Profile</a>
+                    <Link to="/about">Edit Profile</Link>
                   </li>
                   <li className="smallscreen_overlay-list_profile-item">
-                    <a href="#!">Settings</a>
+                    <Link to="/contact">Settings</Link>
                   </li>
                   <li className="smallscreen_overlay-list_profile-item">
-                    <a href="#!">Log out</a>
+                    <Link to="/about">Log out</Link>
                   </li>
                 </ul>
                 <div className="header__nav-content__user-inner">
@@ -127,13 +128,13 @@ const Navbar = () => {
                     </select>
                     <AiOutlineCaretDown />
                   </div>
-                  <a href="/about" className="icon">
+                  <a href="/contact" className="icon">
                     <img src={images.icon1} alt="icon1" />
                   </a>
-                  <a href="/about" className="icon">
+                  <a href="/contact" className="icon">
                     <img src={images.icon2} alt="icon2" />
                   </a>
-                  <a href="/about" className="icon">
+                  <a href="/contact" className="icon">
                     <img src={images.search} alt="search" />
                   </a>
                 </div>

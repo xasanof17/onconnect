@@ -26,7 +26,7 @@ import support from '../assets/support.svg';
 import del from '../assets/delete.svg';
 import comment from '../assets/comment.svg';
 
-export default {
+const images = {
   login,
   loginLogo,
   eye,
@@ -54,4 +54,6 @@ export default {
   support,
   del,
   comment
-};
+}
+
+export default images;
