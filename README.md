@@ -1,8 +1,4 @@
-# Getting Started with Create React App
-
-This project was created by Javohir
-
-## Available Scripts
+# This project was created by Javohir
 
 In the project directory, you can run:
 
